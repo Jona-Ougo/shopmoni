@@ -1,0 +1,5 @@
+1. Check Merchants Logo Upload [confirmed]
+2. Accordion For Categories
+3. Carousel That supports Video and Images For homepage
+4. Check the footer image and converted to regular html and styled.
+5. The ShopMoni at the banner should be centralized also on mobile

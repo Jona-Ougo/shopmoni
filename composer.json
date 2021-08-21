@@ -1,0 +1,12 @@
+{
+    "description" : "GoCart",
+    "name" : "gocart/GoCart",
+    "require": {
+        "php": ">=5.4",
+        "altorouter/altorouter": "1.1.0",
+        "twig/twig": "~1.0",
+        "omnipay/common": "^2.3",
+        "robmorgan/phinx": "^0.9.1",
+        "nesbot/carbon": "^1.22"
+    }
+}

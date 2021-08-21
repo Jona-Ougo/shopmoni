@@ -1,0 +1,18 @@
+version: '2'
+services:
+  shopmoni:
+    build: .
+    ports:
+        - 89:80
+    volumes:
+        - ./:/var/www
+        - ./docker/vhost.conf:/etc/apache2/sites-available/000-default.conf
+        - ./docker/xdebug.ini:/etc/php/5.6/apache2/conf.d/20-xdebug.ini
+    env_file:
+        - ./.env.local
+    container_name: shopmoni
+    networks:
+      - servers_external_network
+networks:
+  servers_external_network:
+    external: true

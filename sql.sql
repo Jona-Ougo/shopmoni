@@ -1,0 +1,1 @@
+ALTER TABLE `customers_shop_information` ADD `zip` VARCHAR(255) NULL AFTER `zone`;
